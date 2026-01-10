@@ -10,7 +10,7 @@ function App() {
   const [dashboardData, setDashboardData] = useState('');
 
   // Update backend URL if needed (Codespaces often maps 5000 to a public URL)
-  const API_BASE = 'http://localhost:5000/api';
+  const API_BASE = 'PASTE_YOUR_COPIED_ADDRESS_HERE/api';
 
   const handleAuth = async (e) => {
     e.preventDefault();
